@@ -28,7 +28,7 @@ conda env create -f environment.yml
 3. **Activate the environment and install isce3-rtc project with the setup.sh file**
 
 ```sh
-conda activate isce3_rtc
+conda activate pyrosar_rtc
 sh setup.sh
 ```
 
