@@ -1,4 +1,4 @@
-# sentinel_1_isce3_rtc
+# Sentinel-1 EW RTC (pyroSAR)
 
 Notebook for creating Radiometrically Terrain Corrected (RTC) backscatter data for Sentinel-1 EW using the pyroSAR (SNAP backend) software. All inputs are downloaded in the notebook.
 
