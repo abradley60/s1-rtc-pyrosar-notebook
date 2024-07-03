@@ -8,7 +8,7 @@ Notebook for creating Radiometrically Terrain Corrected (RTC) backscatter data f
 
 Installers - https://step.esa.int/main/download/snap-download/ 
 
-SNAP for linux can be installed from the command line. **Note - broken from java issues on the NCI**.
+SNAP for linux can be installed from the command line. 
 
 ```sh
 
@@ -21,6 +21,8 @@ sh esa-snap_sentinel_unix_9_0_0.sh -q esa-snap.varfile
 export PATH="$PATH:$HOME/snap/bin"
 
 sh update_snap.sh
+
+rm esa-snap_sentinel_unix_9_0_0.sh
 
 ```
 
