@@ -48,11 +48,10 @@ rm  -rf  ~/miniconda3/miniconda.sh
 conda env create -f environment.yml
 ```
 
-4. **Activate the environment and install isce3-rtc project with the setup.sh file**
+4. **Activate the environment**
 
 ```sh
 conda activate pyrosar_rtc
-sh setup.sh
 ```
 
 5. **Setup credentials**
