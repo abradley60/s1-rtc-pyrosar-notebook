@@ -1,4 +1,4 @@
-name: pyrosar_rtc
+name: pyrosar_rtc_2
 channels:
   - conda-forge
   - defaults
@@ -85,6 +85,7 @@ dependencies:
   - ipython=8.25.0
   - jedi=0.19.1
   - json-c=0.17
+  - jupyter=1.1.1
   - jupyter_client=8.6.2
   - jupyter_core=5.7.2
   - kealib=1.5.3
@@ -260,4 +261,4 @@ dependencies:
       - shapely==2.0.4
       - tenacity==8.2.2
       - tzlocal==5.2
-prefix: /Users/alexbradley/miniforge3/envs/pyrosar_rtc
+prefix: /g/data/yp75/projects/pyrosar_processing/micromamba/envs/pyrosar_rtc

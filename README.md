@@ -2,7 +2,7 @@
 
 Notebook for creating Radiometrically Terrain Corrected (RTC) backscatter data for Sentinel-1 EW using the pyroSAR (SNAP backend) software. All inputs are downloaded in the notebook.
 
-# Instructions
+# SNAP Instructions
 
 1. **Install SNAP**
 
@@ -62,3 +62,28 @@ conda activate pyrosar_rtc
 * add credentials to **credentials/copernicus_earthdata.yaml** based on example file in folder
 
 6. **run the notebook**
+
+# GAMMA Instructions
+
+1. **Connect to the NCI**
+
+You must have access to the following projects
+- yp75
+- dg9
+
+It is useful to have access to the Copernicus Hub project (fj7) as well.
+
+2. **Set up and activate conda environment**
+
+See SNAP instructions above
+
+3. **Create PyroSAR's GAMMA API**
+
+cd to this repository, noting it is already located at 
+`/g/data/yp75/projects/pyrosar_processing/s1-rtc-pyrosar-notebook`
+
+Run `python initialise_gamma.py`
+
+4. **Move scene to be processed to `data` folder.**
+
+5. **Run the notebook**
